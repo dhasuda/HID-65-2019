@@ -1,0 +1,20 @@
+{
+  "name": "node_project",
+  "version": "1.0.0",
+  "description": "HID-65 2019 Project",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "tsc && node dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/express": "^4.17.1",
+    "tslint": "^5.20.0",
+    "typescript": "^3.6.4"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
